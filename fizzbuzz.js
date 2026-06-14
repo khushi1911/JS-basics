@@ -2,7 +2,7 @@ var output =[];
 var count = 1;
 
 
-function addElem(count){
+function addElem(){
 
 
 if(count % 3 === 0){
@@ -14,10 +14,10 @@ else if (count % 5===0){
     output.push("FizzBuzz");
 }else{
     output.push(count);
-    count++;
+    
 }
-
+count++;
 console.log(output);
 }
 
-addElem(count);
+addElem();
